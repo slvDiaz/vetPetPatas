@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetPatas</title>
-    <link rel="icon" href="icon.png">
+    <link rel="icon" href="css/img/icon.png">
     <!-- Bootstrap importacion css -->
-    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Personalizado importacion css -->
-    <link rel="stylesheet" href="customStyle.css">
+    <link rel="stylesheet" href="css/customStyle.css">
     <!-- Personalizado importacion js -->
-    <script src="custom.js"></script>
+    <script src="js/custom.js"></script>
 </head>
 <body>
     <div class="container-fluid"> <!-- Crear contenedor principal con clase bootstrap --> 
         <div id="home" class="row shadow-simple p-1"> <!-- Contiene el header y el nav para una correcta navegacion -->
             <header id="header-prin" class="col-8 col-md-5 col-sm-3 dflex-center dis-left">
-                <img src="icon.png" alt="icon">
+                <img src="css/img/icon.png" alt="icon">
                 <h1>PetPatas</h1>
             </header>
             <nav class="col-4 col-md-7 col-sm-9 navbar navbar-expand-lg bg-body-tertiary">
@@ -29,7 +29,7 @@
                     <div class="collapse navbar-collapse" id="navbarText">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Servicios</a>
+                                <a class="nav-link active" aria-current="page" href="#c-service">Servicios</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Productos</a>
@@ -49,13 +49,13 @@
             <section id="section-main" class="col-md-6 col-sm-6 low-brightness ffPark dflex-center pad-10">
                 <center>
                     <br><br><br><h1 class="text-left white-color present-vet">Recomendados y calificados</h1>
-                    <p class="text-left white-color present-vet p-sub opacity-sub">Reconocidos como líderes en la atención veterinaria, proporcionando cuidado integral apoyamos a los dueños para garantizar la salud de sus mascotas</p><br><br><br>
+                    <p class="text-left white-color present-vet p-sub opacity-sub">Reconocidos como líderes en la atención veterinaria, proporcionando cuidado integral apoyamos a los dueños para garantizar la salud de sus mascotas</p><br><br>
                 </center>
             </section>
             <aside class="col-md-6 col-sm-6 low-brightness ffPark white-color dflex-center pad-10">
                 <center>
-                    <br><br><br><div class="card" style="width: 18rem;">
-                        <div class="card-body p-4 bg-gray">
+                    <br><br><br><br><div class="card" style="width: 18rem;">
+                        <div class="card-body bg-gray">
                             <h5 class="card-title">¿Que atendemos?</h5>
                             <p class="p-sub">Todo tipo de animales y razas sin alguna diferencia, su servicio dependera de las acciones
                                 que necesite cada mascota
@@ -65,32 +65,69 @@
                     </div><br><br><br>
                 </center>    
             </aside>
-        </main>
+        </main><br><br>
+        <section id="c-service" class="row pad-10">
+            <div class="col-md-4">
+                    <div class="img-service bg-distribution show" id="img-service-bs"></div><br>
+                    <h6>Servicio basico</h6>
+                    <p>500MX</p>
+                    <p class="p-service">
+                        En nuestra división de servicios básicos, ofrecemos cuidados esenciales para asegurar la salud y el bienestar de tus mascotas. Estos servicios incluyen consultas generales, vacunación, desparasitación, chequeos de rutina, y tratamientos preventivos. Nuestro objetivo es mantener a tus amigos peludos saludables y felices, detectando y preveniendo problemas antes de que se conviertan en algo serio.
+                    </p><br><br>
+            </div>
+            <div class="col-md-4">
+                    <div class="img-service bg-distribution show" id="img-service-im"></div><br>
+                    <h6>Servicio intermedio</h6>
+                    <p>800MX</p>
+                    <p class="p-service">
+                        Nuestros servicios intermedios están diseñados para atender necesidades médicas más específicas y tratamientos avanzados. Esto incluye diagnósticos de laboratorio, radiografías, ultrasonidos, tratamientos para enfermedades crónicas, y cirugías menores. Contamos con un equipo de veterinarios especializados y tecnología de punta para proporcionar un cuidado integral y detallado a tus mascotas.
+                    </p><br><br>
+            </div>
+            <div class="col-md-4">
+                    <div class="img-service bg-distribution show" id="img-service-av"></div><br>
+                    <h6>Servicio avanzado</h6>
+                    <p>1200MX</p>
+                    <p class="p-service">
+                        La división de servicios avanzados está equipada para manejar casos complejos y situaciones de emergencia. Ofrecemos cirugías especializadas, cuidados intensivos, terapia física, tratamientos oncológicos y hospitalización prolongada. Nuestro compromiso es brindar la más alta calidad de atención, utilizando técnicas avanzadas y un enfoque personalizado para cada mascota.
+                    </p><br><br>
+            </div>
+        </section>
+        <section id="c-product" class="row bg-gray">
+            <div class="col-12 col-md-6 dflex-center">
+                <h1 class="text-center">Mas sobre nuestra empresa</h1>
+            </div>
+            <div class="col-12 col-md-6 dflex-center">
+                <center><p class="text-left">En nuestro sitio web, nos apasiona hacer que la atencion medica animal sea accesible para todos.
+                    Creemos en el poder de la seguridad y nos comprometemos a acompañarte y guiarte hacia un mejor
+                    futuro de tu mascota. <a href="">Mas informacion</a>
+                </p></center>
+            </div>
+        </section><br><br>
         <section id="c-authors" class="row"> <!-- Etiqueta section para apartado de autores -->
             <div class="col-md-4 c-authors-inf">
-                <center><br><div class="img-author shadow-simple"></div><br>
-                <h5>Fernanda Muñoz</h3>
+                <center><br><div class="img-author shadow-simple bg-distribution show" id="img-author-f"></div><br>
+                <h5>Fernanda Muñoz</h5>
                 <p class="opacity-sub p-sub">Encargada de la alimentacion, del higiene y todo el cuidado de los animales</p>
                 <div class="dflex-center opacity-sub">
-                    <img src="icon-ig.svg" alt="ig">
+                    <img src="css/img/icon-ig.svg" alt="ig">
                     <a href="https://instragram.com/its_frndatx_">its_frndatx_</a>
                 </div><br><br></center>
             </div>
             <div class="col-md-4 c-authors-inf">
-                <center><br><div class="img-author shadow-simple"></div><br>
-                <h5>Oscar Palacios</h3>
+                <center><br><div class="img-author shadow-simple bg-distribution show" id="img-author-o"></div><br>
+                <h5>Oscar Palacios</h5>
                 <p class="opacity-sub p-sub">Encargado de la recepcion con la que te atenderemos</p>
                 <div class="dflex-center opacity-sub">
-                    <img src="icon-ig.svg" alt="ig">
+                    <img src="css/img/icon-ig.svg" alt="ig">
                     <a href="https://instagram.com/ly.xzcxr">ly.xzcxr</a>
                 </div><br></center>
             </div>
             <div class="col-md-4 c-authors-inf">
-                <center><br><div class="img-author shadow-simple"></div><br>
-                <h5>Luis Vargas</h3>
+                <center><br><div class="img-author shadow-simple bg-distribution show" id="img-author-l"></div><br>
+                <h5>Luis Vargas</h5>
                 <p class="opacity-sub p-sub">Encargado de la parte administrativa de la empresa</p>
                 <div class="dflex-center opacity-sub">
-                    <img src="icon-ig.svg" alt="ig">
+                    <img src="css/img/icon-ig.svg" alt="ig">
                     <a href="https://instagram.com/luispnm_06">luispnm_06</a>
                 </div><br></center>
             </div>
@@ -107,6 +144,6 @@
         </footer>
     </div>
     <!-- Bootstrap importacion js -->
-    <script src="bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
