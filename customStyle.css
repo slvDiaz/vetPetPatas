@@ -58,6 +58,7 @@ html{
 .img-service{
     width: 300px;
     height: 320px;
+    border-radius: 15px;
 }
 .p-service{
     width: 90%;
