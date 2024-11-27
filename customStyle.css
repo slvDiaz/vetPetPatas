@@ -9,7 +9,7 @@ section, aside{
     visibility: hidden;
 }
 #c-main{
-    background-image: url("img/bg.jpg");
+    background-image: url("bg.jpg");
 }
 #c-footer{
     padding: 20px 10px 10px 10px;
