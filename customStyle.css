@@ -10,7 +10,7 @@ html{
     visibility: hidden;
 }
 #c-main{
-    background-image: url("img/bg.jpg");
+    background-image: url("bg.jpg");
 }
 #c-footer{
     padding: 20px 10px 10px 10px;
@@ -26,19 +26,19 @@ html{
     margin-right: 5px;
 }
 #img-service-bs{
-    background-image: url("img/service-bs.png");
+    background-image: url("service-bs.png");
 }
 #img-service-im{
-    background-image: url("img/service-im.png");
+    background-image: url("service-im.png");
 }
 #img-service-av{
-    background-image: url("img/service-av.png");
+    background-image: url("service-av.png");
 }
 #img-author-f{
-    background-image: url("img/fer.jpg");
+    background-image: url("fer.jpg");
 }
 #img-author-l{
-    background-image: url("img/luis.jpg");
+    background-image: url("luis.jpg");
 }
 #section-main h1{
     width: 60%;
@@ -106,7 +106,7 @@ html{
     width: 140px;
     height: 140px;
     border-radius: 50%;
-    background-image: url("img/bg.jpg");
+    background-image: url("bg.jpg");
 }
 .bg-distribution{
     background-size: cover;
