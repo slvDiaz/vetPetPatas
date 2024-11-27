@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+section, aside{
+    padding: 10px;
+}
+#lbl-hidden{
+    visibility: hidden;
+}
+#c-main{
+    background-image: url("img/bg.jpg");
+}
+#c-footer{
+    padding: 20px 10px 10px 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+#c-footer h4{
+    font-weight: 400;
+}
+#header-prin img{
+    width: 43px;
+    margin-right: 5px;
+}
+#section-main{
+    font-family: 'Parkinsans';
+}
+#span-sub{
+    font-size: 13px;
+}
+#video-cat{
+    width: 330px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.shadow-simple{
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
+}
+.low-brightness{
+    background: rgba(0, 0, 0, 0.4);
+}
+.dflex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.present-vet{
+    width: 60%;
+}
+.text-right{
+    text-align: right;
+}
+.white-color{
+    color: #fff;
+}
+.text-left{
+    text-align: left;
+}
+.dis-left{
+    justify-content: left;
+}
+.img-author{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+.bg-distribution{
+    background-size: cover;
+    background-position: center center;
+}
+.opacity-sub{
+    opacity: 0.7;
+}
+.c-authors-inf a{
+    color: #000;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 13px;
+}
+.c-authors-inf img{
+    width: 14px;
+}
+.c-authors-inf p{
+    width: 70%;
+}
+.p-sub{
+    font-size: 14px;
+}
