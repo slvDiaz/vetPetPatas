@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap');
+*:not(a){
+    cursor: default;
+}
 html{
     scroll-behavior: smooth;
+    scrollbar-width: none;
 }
 section, aside{
     padding: 10px;
@@ -9,10 +13,11 @@ section, aside{
     visibility: hidden;
 }
 #c-main{
-    background-image: url("bg.jpg");
+    background-image: url("img/bg.jpg");
 }
 #c-footer{
     padding: 20px 10px 10px 10px;
+    background-color: rgba(0,0,0,0.05);
 }
 #c-footer h4{
     font-weight: 400;
@@ -21,16 +26,11 @@ section, aside{
     width: 43px;
     margin-right: 5px;
 }
-#section-main{
-    font-family: 'Parkinsans';
+#section-main h1{
+    width: 50%;
 }
 #span-sub{
     font-size: 13px;
-}
-#video-cat{
-    width: 330px;
-    border-radius: 20px;
-    margin-bottom: 20px;
 }
 .shadow-simple{
     box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.1);
@@ -49,11 +49,17 @@ section, aside{
 .text-right{
     text-align: right;
 }
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
 .white-color{
     color: #fff;
 }
-.text-left{
-    text-align: left;
+.ffPark{
+    font-family: 'Parkinsans';
 }
 .dis-left{
     justify-content: left;
